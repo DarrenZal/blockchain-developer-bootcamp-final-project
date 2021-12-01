@@ -31,7 +31,6 @@ Demo is deployed on Ropsten testnet and is hosted at:<br />
 https://communityinclusioncurrencies.firebaseapp.com/<br />
 <br />
 Dependencies:<br />
-<br />
 	npm install -g create-react-app
 <br />
 <br />
