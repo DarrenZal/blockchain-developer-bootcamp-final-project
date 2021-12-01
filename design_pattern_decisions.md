@@ -5,4 +5,7 @@ Inter-Contract Execution<br/>
   <br/>
  Inheritance and Interfaces<br/>
   ERC20PresetMinterPauser.sol is a modified ERC20, so it inherits from ERC20.sol and ERC20Burnable.sol.  It also inherits from Context.sol and AccessControlEnumerable.sol.<br/>
+  <br/>
+Access Control Design Patterns<br/>
+  ERC20PresetMinterPauser.sol uses an Admin role and Minter role.  These are used to limit access to actions like minting the ERC20.  Only the factory contract can mint the token.
   
