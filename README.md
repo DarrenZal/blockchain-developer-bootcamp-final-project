@@ -16,9 +16,9 @@ The CICs are ERC20s.
 Directory Structure:
 This project was bootstrapped with a React-app.
  
-&nbsp;The public folder has React HTML.
+	The public folder has React HTML.
  
- &nbsp;The App folder has the Javascipt and CSS, and a contracts folder with smart contract JSON files.
+	The App folder has the Javascipt and CSS, and a contracts folder with smart contract JSON files.
   
   &nbsp;&nbsp;The App folder has App.js, which is where most of the code was written for this project.
 The Client folder has the front end components (HTM, CSS, JS).
