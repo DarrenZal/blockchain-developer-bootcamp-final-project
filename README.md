@@ -39,6 +39,9 @@ ganache (for testing smart contracts with a local node)<br />
 &nbsp;https://github.com/trufflesuite/ganache-ui/releases<br />
 react (used for bootstrapping front-end)<br />
 &nbsp;npm install -g create-react-app<br />
+Metamask (a web wallet for interacting with Ethereum blockchain)<br />
+&nbsp;https://metamask.io/<br />
+&nbsp;Ropsten testnet Ether can be found for free at a faucet: https://faucet.ropsten.be/<br />
 <br />
 <br />
 Accessing or—if your project needs a server (not required)—running your project<br />
