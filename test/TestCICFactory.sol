@@ -5,6 +5,7 @@ import "truffle/DeployedAddresses.sol";
 import "../contracts/CICfactory.sol";
 
 contract TestCICFactory {
+  ///Should create a CIC, storing all it's data, but not minting the ERC20 yet
   function testCanCreateCIC() public {
     CICfactory _CICFactory = CICfactory(DeployedAddresses.CICfactory());
     string memory  name = "test";
@@ -24,6 +25,7 @@ contract TestCICFactory {
     Assert.equal(created, true, "It should be able to create a CIC.");
   }
 
+  ///Should create a CIC, then allow one of the backers to sign off on their pledge to redeem their share of CIC for goods and services
   function testCanSignCIC() public {
     CICfactory _CICFactory = CICfactory(DeployedAddresses.CICfactory());
     string memory  name = "test2";
@@ -44,7 +46,7 @@ contract TestCICFactory {
     Assert.equal(signedCIC, true, "It should be able to create a CIC.");
   }
 
-
+  ///Should create a CIC, then get it's symbol
   function testItStoresSymbol() public {
     CICfactory _CICFactory = CICfactory(DeployedAddresses.CICfactory());
     string memory name = "test3";
@@ -67,6 +69,7 @@ contract TestCICFactory {
 
   }
 
+  ///Should create a CIC, then get it's list of backers
   function testItStoresBackers() public {
     CICfactory _CICFactory = CICfactory(DeployedAddresses.CICfactory());
     string memory name = "test4";
@@ -90,6 +93,7 @@ contract TestCICFactory {
 
   }
 
+  ///Should create a CIC, then mint it, creating the ERC20 token and distributing the minted amount to the backers in proportion to the amount of goods they pledged.
   function testItCanMintCIC() public {
     CICfactory _CICFactory = CICfactory(DeployedAddresses.CICfactory());
     string memory name = "test5";
