@@ -29,6 +29,7 @@ The migrations folder has config for truffle migrations.<br />
 <b>Front End:</b><br />
 Demo is deployed on Ropsten testnet and is hosted at:<br />
 https://communityinclusioncurrencies.firebaseapp.com/<br />
+Video of me walking through the app: https://drive.google.com/file/d/19Y8Y_QKNURlGiTTPv1LmVL-ZIQs_6kw7/view?usp=sharing<br />
 <br />
 <b>Dependencies and installation (mac):</b><br />
 <b>npm</b><br />
