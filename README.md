@@ -30,4 +30,4 @@ Front End:<br />
 Demo is deployed on Ropsten testnet and is hosted at:<br />
 https://communityinclusioncurrencies.firebaseapp.com/
 
-
+My public Ethereum account: 0x3E7F054563682c42bd4907b88D0DC27557992576
