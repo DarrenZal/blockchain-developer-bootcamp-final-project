@@ -1,1 +1,1 @@
-Demo is deployed on Ropsten testnet and is hosted at: https://communityinclusioncurrencies.firebaseapp.com/
+Demo is deployed on Ropsten testnet and has address 0x2664206dae741fFF6Bc812d71B1676285588BCdC
