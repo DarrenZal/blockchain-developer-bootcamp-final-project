@@ -47,7 +47,7 @@ Video of me walking through the app: https://drive.google.com/file/d/19Y8Y_QKNUR
 <b>Testing</b><br />
 Solidity and Javascript tests are in the test folder.  to run the tests simply run:<br />
 ```
-truffle test<br />
+truffle test
 ```
 <br />
 <br />
