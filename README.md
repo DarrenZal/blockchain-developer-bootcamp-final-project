@@ -45,7 +45,7 @@ Video of me walking through the app: https://drive.google.com/file/d/19Y8Y_QKNUR
 &nbsp;Ropsten testnet Ether can be found for free at a faucet: https://faucet.ropsten.be/<br />
 <br />
 <b>Testing</b><br />
-Solidity and Javascript tests are in the test folder.  to run the tests simply run:<br />
+Solidity and Javascript tests are in the test folder.  to run the tests, get a local testnet running on port 8545, then run:<br />
 ```
 truffle test
 ```
