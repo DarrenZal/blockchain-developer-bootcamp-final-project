@@ -44,5 +44,11 @@ Video of me walking through the app: https://drive.google.com/file/d/19Y8Y_QKNUR
 &nbsp;https://metamask.io/<br />
 &nbsp;Ropsten testnet Ether can be found for free at a faucet: https://faucet.ropsten.be/<br />
 <br />
+<b>Testing</b><br />
+Solidity and Javascript tests are in the test folder.  to run the tests simply run:<br />
+```
+truffle test<br />
+```
+<br />
 <br />
 My public Ethereum account: 0x3E7F054563682c42bd4907b88D0DC27557992576
