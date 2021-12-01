@@ -31,7 +31,7 @@ Demo is deployed on Ropsten testnet and is hosted at:<br />
 https://communityinclusioncurrencies.firebaseapp.com/<br />
 <br />
 <b>Dependencies and installation (mac):</b><br />
-<b>npm<br />
+<b>npm</b><br />
 &nbsp;brew install node<br />
 <b>truffle (for building, testing, and depoying contracts)</b><br />
 &nbsp;npm install -g truffle<br />
