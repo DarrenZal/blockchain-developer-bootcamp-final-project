@@ -21,13 +21,13 @@ This project was bootstrapped with a React-app.<br />
 	The App folder has the Javascipt and CSS, and a contracts folder with smart contract JSON files.<br />
   
   &nbsp;&nbsp;The App folder has App.js, which is where most of the code was written for this project.<br />
-The Client folder has the front end components (HTM, CSS, JS).
-The Contracts folder has the smart contracts.
-The migrations folder has config for truffle migrations.
-
-
-Front End:
-Demo is deployed on Ropsten testnet and is hosted at:
+The Client folder has the front end components (HTM, CSS, JS).<br />
+The Contracts folder has the smart contracts.<br />
+The migrations folder has config for truffle migrations.<br />
+<br />
+<br />
+Front End:<br />
+Demo is deployed on Ropsten testnet and is hosted at:<br />
 https://communityinclusioncurrencies.firebaseapp.com/
 
 
