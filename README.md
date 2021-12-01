@@ -30,8 +30,15 @@ Front End:<br />
 Demo is deployed on Ropsten testnet and is hosted at:<br />
 https://communityinclusioncurrencies.firebaseapp.com/<br />
 <br />
-Dependencies:<br />
-	npm install -g create-react-app
+Dependencies and installation (mac):<br />
+npm<br />
+&nbsp;brew install node<br />
+truffle (for building, testing, and depoying contracts)<br />
+&nbsp;npm install -g truffle<br />
+ganache (for testing smart contracts with a local node)<br />
+&nbsp;https://github.com/trufflesuite/ganache-ui/releases<br />
+react (used for bootstrapping front-end)<br />
+&nbsp;npm install -g create-react-app<br />
 <br />
 <br />
 Accessing or—if your project needs a server (not required)—running your project<br />
