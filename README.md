@@ -12,10 +12,11 @@ When all backers have signed off on their pledges, the CIC can be minted.
 Minting distributes CIC to all the backers in proportion to the value of goods and services they pledged.
 The CICs are ERC20s.
 
+
 Directory Structure:
 This project was bootstrapped with a React-app.
  
- &nbsp;The public folder has React HTML.
+&nbsp;The public folder has React HTML.
  
  &nbsp;The App folder has the Javascipt and CSS, and a contracts folder with smart contract JSON files.
   
