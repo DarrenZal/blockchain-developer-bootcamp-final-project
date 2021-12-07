@@ -95,7 +95,7 @@ class App extends Component {
       const deployedNetwork = CICfactory.networks[networkId];
       const instance = new web3.eth.Contract(
         CICfactory.abi,
-        deployedNetwork && deployedNetwork.address,
+        "0x2664206dae741fFF6Bc812d71B1676285588BCdC",
       );
 
       // Set web3, accounts, and contract to the state, and then proceed with an
@@ -151,7 +151,6 @@ class App extends Component {
     this.setState({ storageValue: response });
   };
   async MinttheCIC(response) {
-    alert(response);
     //const { accounts, contract, web3 } = this.state;
     // Get the value from the contract to prove it worked.
     //const response = await contract.methods.mintCIC(CIC_name).call();
@@ -192,11 +191,8 @@ class App extends Component {
          btn.className = "tableBtn";
          btn.value = "Mint";
          btn.onclick = (function(response){ return async function(){ 
-           alert("start");
            const num_CICs = await contract.methods.GetCount().call();
-           alert(num_CICs);
            const CIC_address = await contract.methods.mintCIC(response).send({ from: accounts[0] });
-          alert(JSON.stringify(CIC_address));
          }}
          
          )(response);
@@ -204,7 +200,6 @@ class App extends Component {
          cell2.style.textAlign = "center";
          cell2.style.width = "15%";
       } else {
-        alert("123");
         cell2.innerHTML = "CIC Address: " + contractAddress;
         cell2.style.textAlign = "center";
         cell2.style.fontWeight = "bold";
